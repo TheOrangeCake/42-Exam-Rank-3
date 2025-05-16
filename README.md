@@ -32,7 +32,7 @@ The logic:
 
 ## nqueens
 ----------
-This code passed the exam. However the exam doesn't require print out the total number of solutions, so adjust the code accordingly.
+This code passed the exam. However the exam doesn't require print out the total number of solutions, so adjust the code accordingly. Function atoi() is allowed so don't need to code ft_atoi().
 The logic: Using an array, the size of the array represent the column, the value of each cell represent the row.
            So something like [1, 3 , 0, 2] mean: (format queen(x, y)
               - first queen is at columm 0, row 1 : queen(1, 0).
