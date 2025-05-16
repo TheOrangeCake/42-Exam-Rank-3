@@ -31,12 +31,11 @@ The logic:
 ----------
 ## nqueens
 This code passed the exam. However the exam doesn't require print out the total number of solutions, so adjust the code accordingly. Function atoi() is allowed so don't need to code ft_atoi().
-The logic: Using an array, the size of the array represent the column, the value of each cell represent the row.
-           So something like [1, 3 , 0, 2] mean: (format queen(x, y)
-              - first queen is at columm 0, row 1 : queen(1, 0).
-              - second queen is at columm 1, row 3: queen(3, 1).
-              - third queen is at columm 2, row 0: queen(0, 2).
-              - fourth queen is at columm 3, row 2: queen(2, 3).
+The logic: Using an array, the size of the array represent the column, the value of each cell represent the row. So something like [1, 3 , 0, 2] mean: (format queen(x, y)
+  - first queen is at columm 0, row 1 : queen(1, 0).
+  - second queen is at columm 1, row 3: queen(3, 1).
+  - third queen is at columm 2, row 0: queen(0, 2).
+  - fourth queen is at columm 3, row 2: queen(2, 3).
 ```
 x | x | Q | x
 Q | x | x | x
