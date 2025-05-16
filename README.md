@@ -1,6 +1,7 @@
 ----------
 ## filter
 This code passed the exam.
+
 The logic:
 - Read from stdin.
 - Copy what was read from char *buffer to char *line until '\n' character. (Else block)
@@ -14,6 +15,7 @@ The logic:
 ----------
 ## scanf
 This code was implemented by me to revise for the exam. I am confidence in it but by no mean blindy trust it as i didnt get it for my exam.
+
 The logic:
 - You get a character from stdin using fget(), check what it is. If it is not what you want, give it back with unget().
 - Int `result` to keep track of how many % you successfully assigned. 
@@ -31,6 +33,7 @@ The logic:
 ----------
 ## nqueens
 This code passed the exam. However the exam doesn't require print out the total number of solutions, so adjust the code accordingly. Function atoi() is allowed so don't need to code ft_atoi().
+
 The logic: Using an array, the size of the array represent the column, the value of each cell represent the row. So something like [1, 3 , 0, 2] mean: (format queen(x, y)
   - first queen is at columm 0, row 1 : queen(1, 0).
   - second queen is at columm 1, row 3: queen(3, 1).
