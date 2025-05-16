@@ -42,6 +42,7 @@ The logic: Using an array, the size of the array represent the column, the value
   - third queen is at columm 2, row 0: queen(0, 2).
   - fourth queen is at columm 3, row 2: queen(2, 3).
 ```
+[1, 3, 0, 2]
 x | x | Q | x
 Q | x | x | x
 x | x | x | Q
