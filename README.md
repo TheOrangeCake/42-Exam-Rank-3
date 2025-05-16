@@ -1,3 +1,5 @@
+The exam date was May 2025 at 42 Lausanne.
+
 ----------
 ## filter
 This code passed the exam.
