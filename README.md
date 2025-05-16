@@ -7,7 +7,8 @@ The logic:
 - Copy what was read from char *buffer to char *line until '\n' character. (Else block)
 - Process the line, print it out, then reset the line pointer line[pos] to 0 so it starts from the start again. (If block)
 - Repeat untill read return 0.
-  NOTE:
+
+NOTE:
   - The code was done in a hacky way to pass the exam. It is not an example of good code so beware of that.
   - the char line[70000] is to avoid malloc. You can implement ft_strjoin if you wish to dynamically allocate memory.
   - I had trouble using buffer[Huge_number] with the grading bot before (the result was correct in my terminal but not when the bot ran it) so this time i used a smaller buffersize.
@@ -26,7 +27,8 @@ The logic:
     - Very straight forward: You copy the string until hitting any whitespace.
 - For character (case c): This one sound easy but actually has a huge pit fall. Check note.
     - You do fget() to get the character then assign.
-  NOTE:
+
+NOTE:
   - There is a different based on the way the Format string passed through scanf is formatted: `%c%c%c` is different from `%c %c %c`. To manage this, you would need to bypass all whitespace in the format string. In my code, it is in ft_scanf(): bypass whitespace until hitting a %.
   - After that, you would need to skip space in case integer and case string, but NOT in case c.
 
